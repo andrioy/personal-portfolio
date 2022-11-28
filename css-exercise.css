@@ -1,0 +1,135 @@
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: wheat;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 100px 0;
+  font-size: 6rem;
+  margin-bottom: 0;
+  border-bottom: 5px solid wheat;
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 250px;
+  border: 10px solid wheat;
+}
+
+p,
+span {
+  font-size: 2rem;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+}
+
+.section {
+  display: block;
+  width: 40%;
+  padding: 3% 5%;
+}
+
+.icons-row {
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.bi {
+  transition: color 0.2s ease-out;
+}
+
+.bi:hover {
+  cursor: pointer;
+}
+
+.bi-facebook:hover {
+  color: #4267b2;
+}
+
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.bi-linkedin:hover {
+  color: #0a66c2;
+}
+
+.bi-instagram:hover {
+  color: #833ab4;
+}
+
+.skills {
+  border-bottom: 1px solid wheat;
+}
+
+.skills h6 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid wheat;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sad-faces {
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+@media screen and (max-width: 1366px) {
+  :root {
+    font-size: 0.8rem;
+  }
+  .section {
+    width: 100%;
+  }
+  p,
+  span {
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    padding-bottom: 20%;
+    height: 100vh;
+    font-size: 5rem;
+  }
+
+  .icons-row {
+    padding: 0;
+  }
+}
